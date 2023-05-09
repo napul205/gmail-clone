@@ -1,0 +1,12 @@
+import firebase from "firebase"
+
+const firebaseConfig = {
+  apiKey: "AIzaSyC0GFwQuhoIfbBoLrObzQwjPy9anLBKzHs",
+  authDomain: "clone-eebd6.firebaseapp.com",
+  projectId: "clone-eebd6",
+  storageBucket: "clone-eebd6.appspot.com",
+  messagingSenderId: "459351713519",
+  appId: "1:459351713519:web:848ddaa690ce22518f9d1a"
+};
+
+const firebaseApp =firebase.initializeApp(firebaseConfig);
