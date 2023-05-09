@@ -1,0 +1,115 @@
+.emaillist{
+    display: flex;
+    flex-direction: column;
+}
+.emaillist_settings{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.emaillist_settings svg{
+font-size: 18px;
+}
+.emaillist_settingRight{
+    display: flex;
+    align-items: center;
+}
+
+.emaillist_settingRight p{
+    font-size: 13px;
+}
+
+.emailtype{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.emailtype > .emailtype_options{
+    display: flex;
+    align-items: center;
+    min-width: 230px;
+    padding: 0px 10px;
+    cursor: pointer;
+    border-bottom: 3px solid #fff;
+}
+
+.emailtype > .emailtype_options svg{
+    font-size: 20px;
+    color: grey;
+}
+.emailtype > .emailtype_options p{
+    font-size: 15px;
+  
+}
+
+.emailtype > .emailtype_options:hover{
+    background-color: whitesmoke;
+}
+.emailtype_options--active{
+    border-bottom: 3px solid #d93025 !important;
+}
+.emailtype_options--active p,
+.emailtype_options--active svg
+{
+    color: #d93025 !important;
+    font-weight: bold;
+}
+.emailbody{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid whitesmoke;
+    padding: 0px 10px;
+    height: 40px;
+    max-width: 1400px;
+}
+.emailbody:hover{
+    box-shadow: 2px 2px 4px whitesmoke;
+    cursor: pointer;
+}
+.emailbody .emailbody_left{
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+    flex: 20%;
+}
+.emailbody .emailbody_left svg{
+    font-size: 18px;
+    color: gray;
+    margin-right: 15px;
+}
+
+.emailbody .emailbody_left h4{
+    font-size: 14px;
+
+}
+.emailbody .emailbody_middle{
+    display: flex;
+    align-items: center;
+    flex: 90%;
+}
+.emailbody_middle .emailbody_middle_msg{
+    display: flex;
+    flex: ;
+    width: ;
+}
+.emailbody .emailbody_middle p{
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 950px;
+}
+.emailbody .emailbody_right{
+    display: flex;
+    align-items: center;
+    flex: 10%;
+    justify-content: flex-end;
+}
+
+.emailbody .emailbody_right p{
+    font-size: 12px;
+}
