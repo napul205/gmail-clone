@@ -9,6 +9,8 @@
 </p>
 
 <br />
+  GUI of the project 
+![image](https://github.com/napul205/gmail-clone/assets/100463532/425c058b-a263-4043-9908-b709380b0fbe)
 
 {{template:bullets}}
 {{template:toc}}
